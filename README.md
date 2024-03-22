@@ -49,8 +49,9 @@ Quando algum dos dados fornecidos não passa na validação. Os erros são retor
 
 ### Estrutura da Mensagem
 As mensagens enviadas através do message broker contêm dois componentes principais:
-- queue: Identificador da fila ou tópico para o qual a mensagem deve ser direcionada.
-- routeJson: Um objeto JSON contendo os dados necessários para processar a mensagem na rota final.
+- routing_key: Identificador da fila ou tópico para o qual a mensagem deve ser direcionada.
+- payload: Um objeto JSON contendo os dados necessários para processar a mensagem na rota final.
+- headers: Cabeçalhos da requisição.
 ```json
 {
 "payload": {
