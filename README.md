@@ -1,6 +1,6 @@
 # Desafio tecnico
 
-## Documentação da API de Cadastro
+## API de Cadastro
 
 Esta documentação detalha a implementação de uma rota de cadastro dentro de uma arquitetura baseada no AdonisJS, que utiliza um sistema de processamento assíncrono distribuído. A infraestrutura é projetada para ser escalável, permitindo o processamento eficiente de tarefas assíncronas através da integração com um message broker e o uso de consumers dedicados.
 
